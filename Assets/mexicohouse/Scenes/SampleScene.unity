@@ -120,6 +120,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1591726899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591726900}
+  m_Layer: 14
+  m_Name: Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1591726900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591726899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7047380997353526198}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &6987375217069378726
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1272,9 +1303,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7051487368937021380}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children:
   - {fileID: 7048729394376609165}
   - {fileID: 7047244490954888182}
@@ -1283,7 +1314,7 @@ Transform:
   - {fileID: 7047362728976753177}
   - {fileID: 7047041242395611165}
   - {fileID: 7047209146871307492}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1591726900}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7047421914061550236
@@ -1619,7 +1650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7047244490954888182}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Room_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1718,7 +1749,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7048729394376609165}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: AlwaysOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1752,7 +1783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7047362728976753177}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Room_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1786,7 +1817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7047041242395611165}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Room_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1820,7 +1851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7048872276181882656}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Room_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1955,7 +1986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7047380997353526198}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: mainAsset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1987,7 +2018,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7049010081142996889}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Room_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2052,7 +2083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7047209146871307492}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Room_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
