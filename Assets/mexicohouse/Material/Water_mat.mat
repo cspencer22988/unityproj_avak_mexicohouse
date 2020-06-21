@@ -9,12 +9,13 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Water_mat
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _NORMALMAP
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -63,14 +64,14 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _FresnelScale: 0.478
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _InvFade: 1
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Shininess: 200
@@ -79,12 +80,12 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _WaveDistortion: 0.433
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.9926471, g: 0.9993464, b: 1, a: 0.631}
     - _BumpDirection: {r: 10, g: 10, b: -10, a: -10}
     - _BumpTiling: {r: 0.05, g: 0.05, b: 0.05, a: 0.05}
-    - _Color: {r: 0.2284525, g: 0.6, b: 0.2109421, a: 1}
+    - _Color: {r: 0.2284525, g: 0.6, b: 0.2109421, a: 0.19607843}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectionColor: {r: 0.5514706, g: 0.9601308, b: 1, a: 0.531}
     - _SpecularColor: {r: 0.72, g: 0.72, b: 0.72, a: 1}
